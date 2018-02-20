@@ -1,0 +1,17 @@
+/* at 1000px add in hamburger menu */
+* {
+  margin: 0;
+  padding: 0;
+}
+.Header-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  vertical-align: middle;
+  font-family: 'Open Sans', sans-serif;
+  min-height: 800px;
+  max-height: 800px;
+  background-image: url("../images/storefront.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}

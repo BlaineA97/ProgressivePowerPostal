@@ -1,9 +1,9 @@
 * {
+  margin: 0;
+  padding: 0;
 }
 .App-container {
-  min-height: 800px;
-  max-height: 1200px;
-  background-image: url("images/storefront.png");
-  background-repeat: no-repeat;
-  background-size: cover;
+}
+.App-body {
+  margin-top: -30px;
 }

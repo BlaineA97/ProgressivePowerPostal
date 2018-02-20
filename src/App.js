@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 // import logo from './logo.svg';
-import Navigation from './components/Navigation';
+import Header from './components/Header';
 import Body from './components/Body';
 import Footer from './components/Footer';
 import './App.css';
@@ -10,7 +10,7 @@ class App extends Component {
     return (
       <div className="App-container">
         <div className="App-navigation">
-          <Navigation />
+          <Header />
         </div>
         <div className="App-body">
           <Body />
