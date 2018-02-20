@@ -27,12 +27,15 @@ class Header extends Component {
     }
   }
 
+  componentDidMount() {
+    this.state.backgroundSelection = setInterval(this.onClick, 5000);
+  }
+
   render() {
     return (
       <div id={this.state.backgroundSelection} className="Header-container">
 
         <Navigation />
-        {this.state.backgroundSelection}
         <div className="Header-arrow-container">
           <a onClick={this.onClick}> press me </a>
         </div>
