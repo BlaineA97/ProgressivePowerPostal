@@ -12,10 +12,10 @@ class App extends Component {
         <div className="App-navigation">
           <Navigation />
         </div>
-        <div className="App-navigation">
+        <div className="App-body">
           <Body />
         </div>
-        <div className="App-navigation">
+        <div className="App-footer">
           <Footer />
         </div>
       </div>
