@@ -64,19 +64,19 @@ img.info-image {
 
   {/* Start Hours Container */}
   #Body-hours-container {
-    border: 1px red solid;
+    margin: 20px 0;
     flex-basis: 250px;
     flex-grow: 1;
   }
   {/* Start Carrier Container */}
   #Body-carrier-container {
-    border: 1px blue solid;
+    margin: 20px 0;
     flex-basis: 250px;
     flex-grow: 1;
   }
   {/* Start Location Container */}
   #Body-location-container {
-    border: 1px green solid;
+    margin: 20px 0;
     flex-basis: 250px;
     flex-grow: 1;
   }
