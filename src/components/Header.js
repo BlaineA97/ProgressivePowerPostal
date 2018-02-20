@@ -13,6 +13,7 @@ class Header extends Component {
     };
   }
 
+// Returns text to sit over images.
   imageTextOne() {
     return(<p className="Header-background-text">"Affordable & Reliable Shipping Services"</p>)
   }
@@ -23,7 +24,7 @@ class Header extends Component {
     return(<p className="Header-background-text">"Packing Services & Supplies"</p>)
   }
 
-// Alternates Header background images when clicked
+// Alternates Header background images & text when clicked
   onClick() {
     if (this.state.backgroundSelection === "Header-background-1") {
       this.setState({
