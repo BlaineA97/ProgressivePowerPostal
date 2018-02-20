@@ -5,17 +5,34 @@
 }
 .Header-container {
   width: 100%;
-  display: flex;
-  justify-content: space-around;
-  vertical-align: middle;
   font-family: 'Open Sans', sans-serif;
+}
+#Header-background-1 {
   min-height: 800px;
   max-height: 800px;
   background-image: url("../images/storefront.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
-#Header-background {
-
-
+#Header-background-2 {
+  min-height: 800px;
+  max-height: 800px;
+  background-image: url("../images/storeinterior.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#Header-background-3 {
+  min-height: 800px;
+  max-height: 800px;
+  background-image: url("../images/storesupplies.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.Header-arrow-container {
+  margin-top: 350px;
+  font-size: 2.8em;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  vertical-align: middle;
 }
