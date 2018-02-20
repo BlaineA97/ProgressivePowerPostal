@@ -14,13 +14,13 @@ class Header extends Component {
   }
 
   imageTextOne() {
-    return(<p>"Affordable & Reliable Shipping Services"</p>)
+    return(<p className="Header-background-text">"Affordable & Reliable Shipping Services"</p>)
   }
   imageTextTwo() {
-    return(<p>"Candles, Greeting Cards & Office Supplies"</p>)
+    return(<p className="Header-background-text">"Candles, Greeting Cards & Office Supplies"</p>)
   }
   imageTextThree() {
-    return(<p>"Packing Services & Supplies"</p>)
+    return(<p className="Header-background-text">"Packing Services & Supplies"</p>)
   }
 
 // Alternates Header background images when clicked
@@ -45,7 +45,7 @@ class Header extends Component {
 
 // Clicks "onClick" every 5 seconds to change the background picture automatically
   componentDidMount() {
-    this.state.backgroundSelection = setInterval(this.onClick, 3000);
+    this.state.backgroundSelection = setInterval(this.onClick, 5000);
   }
 
   render() {
