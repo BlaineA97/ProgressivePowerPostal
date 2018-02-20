@@ -2,8 +2,8 @@
   margin: 0;
   padding: 0;
 }
-
-.Body-container {
+/* Start Bio Container */
+.Body-bio-container {
   background-image: url("../images/whitebackdrop.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -38,4 +38,59 @@
 .Body-img-container {
   display: flex;
   justify-content: center;
+}
+img#body-img {
+  width: 350px;
+  height: 350px;
+}
+
+/* Start Info Container */
+.Body-info-container {
+  width: 100%;
+  background-image: url("../images/graybackdrop.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  vertical-align: middle;
+  flex-wrap: wrap;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+}
+img.info-image {
+  width: 150px;
+  height: 150px;
+}
+
+  {/* Start Hours Container */}
+  #Body-hours-container {
+    border: 1px red solid;
+    flex-basis: 250px;
+    flex-grow: 1;
+  }
+  {/* Start Carrier Container */}
+  #Body-carrier-container {
+    border: 1px blue solid;
+    flex-basis: 250px;
+    flex-grow: 1;
+  }
+  {/* Start Location Container */}
+  #Body-location-container {
+    border: 1px green solid;
+    flex-basis: 250px;
+    flex-grow: 1;
+  }
+
+/* Start Tracking Container */
+.Body-tracking-container {
+  border: 1px orange solid;
+  flex-basis: 250px;
+  flex-grow: 1;
+}
+
+/* Start Associates Container */
+.Body-associates-container {
+  border: 1px purple solid;
+  flex-basis: 250px;
+  flex-grow: 1;
 }
