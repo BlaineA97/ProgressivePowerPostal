@@ -21,8 +21,8 @@ class Body extends Component {
           </p>
         </div>
 
-        <div className="Body-img">
-          <img src={bodyImg} alt="logo" />
+        <div className="Body-img-container">
+          <img id="body-img" src={bodyImg} alt="logo" />
         </div>
 
 
