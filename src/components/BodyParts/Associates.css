@@ -10,6 +10,7 @@
   background-image: url("../../images/bluebackdrop.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  padding: 25px 25px;
 }
 .Associates-images-container {
   display: flex;
