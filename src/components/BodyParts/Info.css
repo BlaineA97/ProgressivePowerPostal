@@ -22,25 +22,25 @@ img.info-image {
   {/* Start Hours Container */}
   #Info-hours-container {
     margin: 20px 0;
-    flex-basis: 400px;
+    flex-basis: 300px;
     flex-grow: 1;
   }
   {/* Start Carrier Container */}
   #Info-carrier-container {
     margin: 20px 0;
-    flex-basis: 400px;
+    flex-basis: 300px;
     flex-grow: 1;
   }
   {/* Start Holiday Container */}
   #Info-holiday-container {
     margin: 20px 0;
-    flex-basis: 400px;
+    flex-basis: 300px;
     flex-grow: 1;
   }
   {/* Start Location Container */}
   #Info-location-container {
     margin: 20px 0;
-    flex-basis: 400px;
+    flex-basis: 300px;
     flex-grow: 1;
   }
   #Info-location-link {
