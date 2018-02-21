@@ -1,15 +1,17 @@
 .Navigation-container {
   width: 100%;
-  height: 75px;
+  height: 100px;
   display: flex;
   justify-content: space-around;
   vertical-align: middle;
+  flex-wrap: wrap;
   font-family: 'Open Sans', sans-serif;
 }
 
 .Navigation-flexbox-left {
-  margin-left: 15px;
+  min-width: 300px;
   justify-content: center;
+  text-shadow: 1.5px 1.5px #000000;
   font-family: 'Shrikhand', cursive;
 }
 .Navigation-logo {
@@ -17,27 +19,29 @@
 }
 .Navigation-logo-1 {
   margin-bottom: -25px;
-  font-size: 2.8em;
+  font-size: 3.5em;
 }
 .Navigation-logo-2 {
-  margin-left: 90px;
-  font-size: 1.3em;
+  margin-left: 120px;
+  font-size: 1.4em;
 }
 
 .Navigation-flexbox-right {
   display: flex;
   justify-content: space-around;
   vertical-align: middle;
+  flex-wrap: wrap;
 }
 /* BUTTONS */
 .Navigation-button {
-  margin-left: 20px;
+  margin-left: 30px;
   margin-top: 30px;
   color: white;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 1.3em;
+  font-size: 1.5em;
+  text-shadow: 1.5px 1.5px #000000;
   -webkit-transition-duration: 0.4s;
   transition-duration: 0.4s;
 }

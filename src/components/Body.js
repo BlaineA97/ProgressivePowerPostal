@@ -14,14 +14,7 @@ class Body extends Component {
         <Info />
         <Tracking />
         <Associates />
-
-      {/* Start Tracking Container */}
-        <div className="Body-tracking-container">
-          <h1>This is: Body Tracking Container (Add API)</h1>
-        </div>
-
-        </div>
-
+      </div>
     );
   }
 }
