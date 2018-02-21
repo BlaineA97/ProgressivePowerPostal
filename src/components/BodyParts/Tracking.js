@@ -26,36 +26,38 @@ class Tracking extends Component {
   render() {
     return (
       <div className="Tracking-container">
+        <div className="Tracking-images-container">
 
-        <img
-          onClick={() => this.openTrackerUSPS()}
-          className="Tracking-image"
-          id="Tracking-img-usps"
-          src={ImgUSPS}
-          alt="Leanin' Tree"
-        />
-        <img
-          onClick={() => this.openTrackerFedEx()}
-          className="Tracking-image"
-          id="Tracking-img-fedex"
-          src={ImgFedEx}
-          alt="Leanin' Tree"
-        />
-        <img
-          onClick={() => this.openTrackerUPS()}
-          className="Tracking-image"
-          id="Tracking-img-ups"
-          src={ImgUPS}
-          alt="Leanin' Tree"
-        />
-        <img
-          onClick={() => this.openTrackerDHL()}
-          className="Tracking-image"
-          id="Tracking-img-dhl"
-          src={ImgDHL}
-          alt="Leanin' Tree"
-        />
+          <img
+            onClick={() => this.openTrackerUSPS()}
+            className="Tracking-image"
+            id="Tracking-img-usps"
+            src={ImgUSPS}
+            alt="Leanin' Tree"
+          />
+          <img
+            onClick={() => this.openTrackerFedEx()}
+            className="Tracking-image"
+            id="Tracking-img-fedex"
+            src={ImgFedEx}
+            alt="Leanin' Tree"
+          />
+          <img
+            onClick={() => this.openTrackerUPS()}
+            className="Tracking-image"
+            id="Tracking-img-ups"
+            src={ImgUPS}
+            alt="Leanin' Tree"
+          />
+          <img
+            onClick={() => this.openTrackerDHL()}
+            className="Tracking-image"
+            id="Tracking-img-dhl"
+            src={ImgDHL}
+            alt="Leanin' Tree"
+          />
 
+        </div>
       </div>
     );
   }
