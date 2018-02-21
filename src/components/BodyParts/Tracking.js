@@ -8,19 +8,19 @@ import './Tracking.css';
 class Tracking extends Component {
 
   openTrackerDHL() {
-    window.open("BLANK", '_blank');
+    window.open("http://www.dhl.com/en/express/tracking.html", '_blank');
   }
 
   openTrackerFedEx() {
-    window.open("BLANK", '_blank');
+    window.open("https://www.fedex.com/apps/fedextrack/?action=track", '_blank');
   }
 
   openTrackerUPS() {
-    window.open("BLANK", '_blank');
+    window.open("https://www.ups.com/tracking/tracking.html", '_blank');
   }
 
   openTrackerUSPS() {
-    window.open("BLANK", '_blank');
+    window.open("https://tools.usps.com/go/TrackConfirmAction_input", '_blank');
   }
 
   render() {
