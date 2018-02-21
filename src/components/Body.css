@@ -85,16 +85,36 @@ img.info-image {
     flex-grow: 1;
   }
 
+  /* Start Associates Container */
+  .Body-associates-container {
+    border-top: 3px solid rgb(0, 0, 0); /* No opacity border for older browsers */
+    border-top: 3px solid rgba(0, 0, 0, .5); /* Modern browser with .3 opacity */
+    flex-basis: 250px;
+    flex-grow: 1;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px #000000;
+    background-image: url("../images/bluebackdrop.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .Body-images-container {
+    display: flex;
+    justify-content: center;
+    vertical-align: middle;
+    flex-wrap: wrap;
+    text-align: center;
+  }
+  img.associates-image {
+    width: 250px;
+    height: 100px;
+    margin: 15px 25px;
+  }
+
+
 /* Start Tracking Container */
 .Body-tracking-container {
   border: 1px orange solid;
-  flex-basis: 250px;
-  flex-grow: 1;
-}
-
-/* Start Associates Container */
-.Body-associates-container {
-  border: 1px purple solid;
   flex-basis: 250px;
   flex-grow: 1;
 }

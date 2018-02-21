@@ -3,9 +3,31 @@ import bodyImg from '../images/circle-body-img.png';
 import hoursImg from '../images/hours.png';
 import carrierImg from '../images/carrier.png';
 import locationImg from '../images/location.png';
+import leaningTreeImg from '../images/leanintreelogoalpha.png';
+import eggheadImg from '../images/egghead.png';
+import milanoImg from '../images/milano.png';
 import './Body.css';
 
 class Body extends Component {
+  constructor(props) {
+    super(props);
+    this.openLinkMilano = this.openLinkMilano.bind(this);
+    this.state = {
+    };
+  }
+
+  openLinkMilano() {
+    window.open("http://milanomusic.com/", '_blank');
+  }
+
+  openLinkLeaninTree() {
+    window.open("https://www.leanintree.com/home.aspx", '_blank');
+  }
+
+  openLinkEggHead() {
+    window.open("http://eggheadcomputerservices.com/", '_blank');
+  }
+
   render() {
     return (
       <div className="Body-container">
@@ -31,9 +53,9 @@ class Body extends Component {
           </div>
         </div>
 
-{/* Start Info Container */}
+      {/* Start Info Container */}
         <div className="Body-info-container">
-  {/* Start Hours Container */}
+        {/* Start Info-Hours Container */}
           <div id="Body-hours-container">
             <img className="info-image" id="Body-hours-img" src={hoursImg} alt="hours" />
             <h1 id="Body-hours-title">Store Hours</h1>
@@ -56,7 +78,7 @@ class Body extends Component {
               01/01 (New Year’s Day) – CLOSED
             </p>
           </div>
-
+        {/* Start Info-Carrier Container */}
           <div id="Body-carrier-container">
             <img className="info-image" id="Body-carrier-img" src={carrierImg} alt="carrier" />
             <h1 id="Body-carrier-title">Carrier Pickup Times</h1>
@@ -72,7 +94,7 @@ class Body extends Component {
               4:00pm
             </p>
           </div>
-
+        {/* Start Info-Location Container */}
           <div id="Body-location-container">
             <img className="info-image" id="Body-location-img" src={locationImg} alt="location" />
             <h1 id="Body-location-title">Location</h1>
@@ -86,18 +108,26 @@ class Body extends Component {
               Fax: 480-654-2800
             </p>
           </div>
-
         </div>
 
-  {/* Start Tracking Container */}
-          <div className="Body-tracking-container">
-            <h1>This is: Body Tracking Container</h1>
-          </div>
+      {/* Start Associates Container */}
+        <div className="Body-associates-container">
+          <h1>Proud Partners Of (add links)</h1>
+          <div className="Body-images-container">
 
-  {/* Start Associates Container */}
-          <div className="Body-associates-container">
-            <h1>This is: Body Associates Container</h1>
+            <img onClick={() => this.openLinkLeaninTree()} className="associates-image" id="Body-associates-img-leanintree" src={leaningTreeImg} alt="Leanin' Tree" />
+
+            <img onClick={() => this.openLinkEggHead()} className="associates-image" id="Body-associates-img-egghead" src={eggheadImg} alt="Egghead" />
+
+            <img onClick={() => this.openLinkMilano()} className="associates-image" id="Body-associates-img-milano" src={milanoImg}   alt="Milano" />
+
           </div>
+        </div>
+
+      {/* Start Tracking Container */}
+        <div className="Body-tracking-container">
+          <h1>This is: Body Tracking Container (Add API)</h1>
+        </div>
 
         </div>
 
