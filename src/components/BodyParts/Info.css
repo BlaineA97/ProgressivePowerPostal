@@ -43,3 +43,9 @@ img.info-image {
     flex-basis: 400px;
     flex-grow: 1;
   }
+  #Info-location-link {
+    color: blue;
+  }
+  #Info-location-link:hover {
+    color: lightblue;
+  }

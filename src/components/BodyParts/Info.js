@@ -6,6 +6,10 @@ import './Info.css';
 
 class Info extends Component {
 
+  openLinkDirections() {
+    window.open("https://www.google.com/maps/place/Power+Postal+at+Las+Sendas/@33.466989,-111.6877649,17z/data=!3m1!4b1!4m5!3m4!1s0x872ba5238ac70ab7:0x575496cc1e835641!8m2!3d33.4669845!4d-111.6855762", '_blank');
+  }
+
   render() {
     return (
       <div className="Info-container">
@@ -60,8 +64,8 @@ class Info extends Component {
             Power Postal at Las Sendas<br />
             2824 N Power Rd, Suite 113<br />
             Mesa, AZ 85215<br />
-            [View Map]<br />
-            <br />
+            <a id="Info-location-link" onClick={() => this.openLinkDirections()}>
+            [View Map]</a><br />
             Phone: 480-654-2600<br />
             Fax: 480-654-2800
           </p>
