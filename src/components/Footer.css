@@ -1,0 +1,25 @@
+.Footer-container {
+  width: 100%;
+  height: 50px;
+  background-color: black;
+  border-top: 3px solid rgb(0, 0, 0); /* No opacity border for older browsers */
+  border-top: 3px solid rgba(0, 0, 0, .5); /* Modern browser with .3 opacity */
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+}
+#Footer-center {
+  padding-top: 15px;
+  display: flex;
+  justify-content: space-around;
+  vertical-align: middle;
+  text-align: center;
+  flex-wrap: nowrap;
+}
+.Footer-text-link {
+  transition: transform .2s;
+  text-decoration: underline;
+}
+.Footer-text-link:hover {
+  transform: scale(1.2);
+  color: lightblue;
+}
