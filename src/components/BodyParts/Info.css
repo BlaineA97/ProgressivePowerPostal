@@ -1,0 +1,45 @@
+
+/* Start Info Container */
+.Info-container {
+  border-top: 3px solid rgb(0, 0, 0); /* No opacity border for older browsers */
+  border-top: 3px solid rgba(0, 0, 0, .5); /* Modern browser with .3 opacity */
+  width: 100%;
+  background-image: url("../../images/graybackdrop.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  vertical-align: middle;
+  flex-wrap: wrap;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+}
+img.info-image {
+  width: 150px;
+  height: 150px;
+}
+
+  {/* Start Hours Container */}
+  #Info-hours-container {
+    margin: 20px 0;
+    flex-basis: 400px;
+    flex-grow: 1;
+  }
+  {/* Start Carrier Container */}
+  #Info-carrier-container {
+    margin: 20px 0;
+    flex-basis: 400px;
+    flex-grow: 1;
+  }
+  {/* Start Holiday Container */}
+  #Info-holiday-container {
+    margin: 20px 0;
+    flex-basis: 400px;
+    flex-grow: 1;
+  }
+  {/* Start Location Container */}
+  #Info-location-container {
+    margin: 20px 0;
+    flex-basis: 400px;
+    flex-grow: 1;
+  }
