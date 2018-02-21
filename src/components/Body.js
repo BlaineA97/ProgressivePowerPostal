@@ -3,6 +3,7 @@ import './Body.css';
 import Associates from './BodyParts/Associates';
 import Bio from './BodyParts/Bio';
 import Info from './BodyParts/Info';
+import Tracking from './BodyParts/Tracking';
 
 class Body extends Component {
 
@@ -12,6 +13,7 @@ class Body extends Component {
         <Bio />
         <Info />
         <Associates />
+        <Tracking />
 
       {/* Start Tracking Container */}
         <div className="Body-tracking-container">
