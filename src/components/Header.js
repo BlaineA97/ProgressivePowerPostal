@@ -15,13 +15,13 @@ class Header extends Component {
 
 // Returns text to sit over images.
   imageTextOne() {
-    return(<p className="Header-background-text">"Affordable & Reliable Shipping Services"</p>)
+    return(<p className="Header-background-text">Affordable & Reliable Shipping Services</p>)
   }
   imageTextTwo() {
-    return(<p className="Header-background-text">"Candles, Greeting Cards & Office Supplies"</p>)
+    return(<p className="Header-background-text">Candles, Greeting Cards & Office Supplies</p>)
   }
   imageTextThree() {
-    return(<p className="Header-background-text">"Packing Services & Supplies"</p>)
+    return(<p className="Header-background-text">Packing Services & Supplies</p>)
   }
 
 // Alternates Header background images & text when clicked
@@ -54,8 +54,10 @@ class Header extends Component {
       <div id={this.state.backgroundSelection} className="Header-container">
 
         <Navigation />
-        <div className="Header-arrow-container">
-          <a onClick={this.onClick}> {this.state.backgroundText} </a>
+        <div className="Header-imageText-container">
+          <a onClick={this.onClick}>
+            {this.state.backgroundText}
+          </a>
         </div>
 
       </div>
