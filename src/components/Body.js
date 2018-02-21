@@ -1,57 +1,18 @@
 import React, { Component } from 'react';
-import bodyImg from '../images/circle-body-img.png';
 import hoursImg from '../images/hours.png';
 import carrierImg from '../images/carrier.png';
 import locationImg from '../images/location.png';
-import leaningTreeImg from '../images/leanintreelogoalpha.png';
-import eggheadImg from '../images/egghead.png';
-import milanoImg from '../images/milano.png';
 import './Body.css';
+import Associates from './BodyParts/Associates';
+import Bio from './BodyParts/Bio';
 
 class Body extends Component {
-  constructor(props) {
-    super(props);
-    this.openLinkMilano = this.openLinkMilano.bind(this);
-    this.state = {
-    };
-  }
-
-  openLinkMilano() {
-    window.open("http://milanomusic.com/", '_blank');
-  }
-
-  openLinkLeaninTree() {
-    window.open("https://www.leanintree.com/home.aspx", '_blank');
-  }
-
-  openLinkEggHead() {
-    window.open("http://eggheadcomputerservices.com/", '_blank');
-  }
 
   render() {
     return (
       <div className="Body-container">
-{/* Start Bio Container */}
-        <div className="Body-bio-container">
 
-          <div className="Body-title">
-            <h1 id="Body-title-1">Welcome to</h1>
-            <h1 id="Body-title-2">Power Postal at Las Sendas</h1>
-          </div>
-
-          <div className="Body-bio">
-            <p>
-              Power Postal at Las Sendas is independently family-owned and operated shipping location in Mesa, AZ. We pride ourselves on being your neighborhood "mom and pop" small business. Power Postal at Las Sendas has been a community fixture for nearly ten years.
-              <br />
-              <br />
-              Conveniently located on the NW corner of Power and McDowell, we are your one-stop shop for all of your business and shipping needs in Mesa, AZ. We are experts in packing so no need to worry about your item getting to its destination in one piece. Whether it's luggage, artwork, or small fragile items we know how to pack it. We'll also provide you with all of your shipping options by price and carrier. Email us your print or copy job, or if you need it now just bring us your flash drive or portable storage device and we'll print it out while you wait. Our personal mailbox service provides you with a physical address to receive packages at a safe and secure location. We'll call, email or text you when they arrive. Our fast FRIENDLY customer service will exceed your expectations!
-            </p>
-          </div>
-
-          <div className="Body-img-container">
-            <img id="body-img" src={bodyImg} alt="logo" />
-          </div>
-        </div>
+      <Bio />
 
       {/* Start Info Container */}
         <div className="Body-info-container">
@@ -110,19 +71,7 @@ class Body extends Component {
           </div>
         </div>
 
-      {/* Start Associates Container */}
-        <div className="Body-associates-container">
-          <h1>Proud Partners Of (add links)</h1>
-          <div className="Body-images-container">
-
-            <img onClick={() => this.openLinkLeaninTree()} className="associates-image" id="Body-associates-img-leanintree" src={leaningTreeImg} alt="Leanin' Tree" />
-
-            <img onClick={() => this.openLinkEggHead()} className="associates-image" id="Body-associates-img-egghead" src={eggheadImg} alt="Egghead" />
-
-            <img onClick={() => this.openLinkMilano()} className="associates-image" id="Body-associates-img-milano" src={milanoImg}   alt="Milano" />
-
-          </div>
-        </div>
+        <Associates />
 
       {/* Start Tracking Container */}
         <div className="Body-tracking-container">

@@ -1,0 +1,32 @@
+/* Start Associates Container */
+.Associates-associates-container {
+  border-top: 3px solid rgb(0, 0, 0); /* No opacity border for older browsers */
+  border-top: 3px solid rgba(0, 0, 0, .5); /* Modern browser with .3 opacity */
+  flex-basis: 250px;
+  flex-grow: 1;
+  text-align: center;
+  color: white;
+  text-shadow: 2px 2px #000000;
+  background-image: url("../../images/bluebackdrop.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.Associates-images-container {
+  display: flex;
+  justify-content: center;
+  vertical-align: middle;
+  flex-wrap: wrap;
+  text-align: center;
+}
+img.associates-image {
+  width: 250px;
+  height: 100px;
+  margin: 15px 25px;
+  transition: transform .2s; /* Animation */
+}
+img.associates-image:hover {
+  width: 250px;
+  height: 100px;
+  margin: 15px 25px;
+  transform: scale(1.2);
+}

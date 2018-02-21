@@ -1,0 +1,44 @@
+/* Start Bio Container */
+.Bio-container {
+  border-top: 3px solid rgb(0, 0, 0); /* No opacity border for older browsers */
+  border-top: 3px solid rgba(0, 0, 0, .5); /* Modern browser with .3 opacity */
+  background-image: url("../../images/whitebackdrop.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.Bio-title {
+  width: 70%;
+  margin: 0 auto;
+  justify-content: center;
+  vertical-align: middle;
+  text-align: center;
+  margin-top: 25px;
+  margin-bottom: 15px;
+  color: black;
+  font-family: 'Shrikhand', cursive;
+}
+.Bio-title-1 {
+  margin-bottom: -20px;
+  font-size: 2.2em;
+}
+.Bio-title-2 {
+  margin-left: 70px;
+  font-size: 1.1em;
+}
+.Bio-bio {
+  width: 70%;
+  margin: 0 auto;
+  padding-bottom: 15px;
+}
+.Bio-img-container {
+  display: flex;
+  justify-content: center;
+}
+img#body-img {
+  width: 350px;
+  height: 350px;
+  margin-bottom: 35px;
+}
