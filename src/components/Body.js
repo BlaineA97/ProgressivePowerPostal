@@ -12,8 +12,8 @@ class Body extends Component {
       <div className="Body-container">
         <Bio />
         <Info />
-        <Associates />
         <Tracking />
+        <Associates />
 
       {/* Start Tracking Container */}
         <div className="Body-tracking-container">

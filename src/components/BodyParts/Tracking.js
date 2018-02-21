@@ -26,8 +26,12 @@ class Tracking extends Component {
   render() {
     return (
       <div className="Tracking-container">
-        <div className="Tracking-images-container">
+        <div id="Tracking-text">
+          <h1>Checking on a Shipment?</h1>
+          <h1>Select your Carrier</h1>
+        </div>
 
+        <div className="Tracking-images-container">
           <img
             onClick={() => this.openTrackerUSPS()}
             className="Tracking-image"
@@ -56,7 +60,6 @@ class Tracking extends Component {
             src={ImgDHL}
             alt="Leanin' Tree"
           />
-
         </div>
       </div>
     );
