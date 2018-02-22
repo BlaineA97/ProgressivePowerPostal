@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './Navigation.css';
 
 class Navigation extends Component {
+
   render() {
     return (
       <div className="Navigation-container">
@@ -30,8 +31,8 @@ class Navigation extends Component {
           </div>
         </div>
 
-
-
+        <div className="Navigation-backdrop">
+        </div>
 
       </div>
     );
