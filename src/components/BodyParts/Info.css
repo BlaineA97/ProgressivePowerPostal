@@ -1,10 +1,11 @@
+/* Color Palette provided in App.css */
 
 /* Start Info Container */
 .Info-container {
   border-top: 3px solid rgb(0, 0, 0); /* No opacity border for older browsers */
   border-top: 3px solid rgba(0, 0, 0, .5); /* Modern browser with .3 opacity */
   width: 100%;
-  background-image: url("../../images/graybackdrop.jpg");
+  background-image: url("../../images/gray-light-circle.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;

@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import hoursImg from '../../images/hours.png';
-import carrierImg from '../../images/carrier.png';
-import locationImg from '../../images/location.png';
+import hoursImg from '../../images/Info/hours.png';
+import carrierImg from '../../images/Info/carrier.png';
+import locationImg from '../../images/Info/location.png';
 import './Info.css';
 
 class Info extends Component {

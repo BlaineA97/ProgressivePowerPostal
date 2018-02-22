@@ -10,21 +10,21 @@
 #Header-background-1 {
   min-height: 700px;
   max-height: 700px;
-  background-image: url("../images/storefront.png");
+  background-image: url("../images/Header/storefront.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
 #Header-background-2 {
   min-height: 700px;
   max-height: 700px;
-  background-image: url("../images/storeinterior.png");
+  background-image: url("../images/Header/storeinterior.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
 #Header-background-3 {
   min-height: 700px;
   max-height: 700px;
-  background-image: url("../images/storesupplies.png");
+  background-image: url("../images/Header/storesupplies.png");
   background-repeat: no-repeat;
   background-size: cover;
 }

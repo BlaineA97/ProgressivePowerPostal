@@ -1,8 +1,10 @@
+/* Color Palette provided in App.css */
+
 /* Start Bio Container */
 .Bio-container {
   border-top: 3px solid rgb(0, 0, 0); /* No opacity border for older browsers */
   border-top: 3px solid rgba(0, 0, 0, .5); /* Modern browser with .3 opacity */
-  background-image: url("../../images/whitebackdrop.jpg");
+  background-image: url("../../images/white-parchment.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;

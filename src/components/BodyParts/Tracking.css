@@ -1,10 +1,12 @@
+/* Color Palette provided in App.css */
+
 .Tracking-container {
   border-top: 3px solid rgb(0, 0, 0); /* No opacity border for older browsers */
   border-top: 3px solid rgba(0, 0, 0, .5); /* Modern browser with .3 opacity */
   text-align: center;
   color: white;
   text-shadow: 2px 2px #000000;
-  background-image: url("../../images/tracking/graybackgroundtracking.jpeg");
+  background-image: url("../../images/gray-lines.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
   padding: 25px 25px;

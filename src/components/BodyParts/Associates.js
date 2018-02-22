@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import leaningTreeImg from '../../images/leanintreelogoalpha.png';
-import eggheadImg from '../../images/egghead.png';
-import milanoImg from '../../images/milano.png';
+import leaningTreeImg from '../../images/Associates/leanintreelogoalpha.png';
+import eggheadImg from '../../images/Associates/egghead.png';
+import milanoImg from '../../images/Associates/milano.png';
 import './Associates.css';
 
 class Associates extends Component {

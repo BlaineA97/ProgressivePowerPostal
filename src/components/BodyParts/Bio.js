@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import bodyImg from '../../images/circle-body-img.png';
+import bodyImg from '../../images/Bio/circle-body-img.png';
 import './Bio.css';
 
 class Bio extends Component {
