@@ -29,7 +29,6 @@
   background-size: cover;
 }
 .Header-imageText-container {
-  margin-top: 250px;
   font-size: 3.2em;
   color: white;
   display: flex;
@@ -39,4 +38,5 @@
   text-shadow: 3px 3px #000000;
 }
 .Header-background-text {
+  margin-top: 350px;
 }

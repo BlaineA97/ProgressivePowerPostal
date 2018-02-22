@@ -52,8 +52,6 @@ class Header extends Component {
   render() {
     return (
       <div id={this.state.backgroundSelection} className="Header-container">
-
-        <Navigation />
         <div className="Header-imageText-container">
           <a onClick={this.onClick}>
             {this.state.backgroundText}
