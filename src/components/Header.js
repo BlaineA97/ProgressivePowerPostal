@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
 import './Header.css';
 import Navigation from './Navigation';
 
@@ -49,16 +48,18 @@ class Header extends Component {
   componentDidMount() {
     this.state.backgroundSelection = setInterval(this.onClick, 5000);
   }
-
   render() {
     return (
-      <div id={this.state.backgroundSelection} className="Header-container">
-        <div className="Header-imageText-container">
-          <a onClick={this.onClick}>
-            {this.state.backgroundText}
-          </a>
-        </div>
+      <div>
+        <Navigation />
+        <div id={this.state.backgroundSelection} className="Header-container">
+          <div className="Header-imageText-container">
+            <a onClick={this.onClick}>
+              {this.state.backgroundText}
+            </a>
+          </div>
 
+        </div>
       </div>
     );
   }

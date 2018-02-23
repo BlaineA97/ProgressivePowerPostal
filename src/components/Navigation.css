@@ -1,6 +1,76 @@
 /* Color Palette provided in App.css */
 
 /* Begin 500px or more media query */
+  .Nav-full-container {
+    width: 100%;
+    height: 65px;
+    font-family: 'Open Sans', sans-serif;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+  }
+  .Nav-full-backdrop { /* Applies black backdrop */
+    width: 100%;
+    height: 65px;
+    background-color: black;
+    opacity: .5;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -5;
+  }
+    /* Logo (Left Flexbox) */
+      .Nav-full-logo-container {
+        margin-right: 50px;
+        float: left;
+        text-shadow: 1.5px 1.5px #000000;
+        font-family: 'Shrikhand', cursive;
+      }
+      .Nav-full-logo-link {
+        color: white;
+        text-decoration: none;
+        -webkit-transition-duration: 0.4s;
+        transition-duration: 0.4s;
+      }
+      .Nav-full-logo-link:hover {
+        color: #428bca;
+      }
+      .Nav-full-logo-1 {
+        margin-bottom: -15px;
+        font-size: 2em;
+      }
+      .Nav-full-logo-2 {
+        margin-left: 120px;
+        font-size: 1em;
+      }
+    /* Menu (Right Flexbox) */
+    .Nav-full-menu {
+      display: flex;
+      justify-content: space-around;
+      vertical-align: middle;
+      flex-wrap: wrap;
+    }
+    .Nav-full-button {
+      margin-left: 10px;
+      margin-top: 35px;
+      color: white;
+      text-align: center;
+      text-decoration: none;
+      font-size: 1.2em;
+      text-shadow: 1.5px 1.5px #000000;
+      -webkit-transition-duration: 0.4s;
+      transition-duration: 0.4s;
+    }
+    .Nav-full-button:hover {
+      color: #428bca;
+      -webkit-animation: swing 1s ease;
+      animation: swing 1s ease;
+      -webkit-animation-iteration-count: 1;
+      animation-iteration-count: 1;
+    }
+
+/* Begin 499px or less media query */
   .Nav-dropdown {
     width: 100%;
     height: 65px;
@@ -29,7 +99,6 @@
     .Nav-dropdown-logo {
       margin-right: 50px;
       float: left;
-      justify-content: center;
       text-shadow: 1.5px 1.5px #000000;
       font-family: 'Shrikhand', cursive;
     }
@@ -51,7 +120,7 @@
       font-size: 1em;
     }
   /* Dropdown (Right Flexbox) */
-    .Nav-dropdown-menu-conatainer {
+    .Nav-dropdown-menu-container {
       margin-right: 50px;
     }
     .Nav-dropdown-display .Nav-dropdown-button {
@@ -65,13 +134,10 @@
       font-family: inherit; /* Important for vertical align on mobile phones */
       margin: 0; /* Important for vertical align on mobile phones */
     }
-    .Nav-dropdown-container p:hover, .Nav-dropdown-display:hover .Nav-dropdown-button {
-      color: #428bca;
-    }
     .Nav-menu-bar {
       width: 25px;
       height: 4px;
-      background-color: black;
+      background-color: white;
       margin: 5px;
     }
     .Nav-dropdown-content {
@@ -79,12 +145,11 @@
       position: absolute;
       right: 0;
       left: auto;
-      background-color: #f9f9f9;
+      background-color: var(--AntiFlashWhite);
       min-width: 100px;
       max-width: 200px;
       box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
       z-index: 1;
-
     }
     .Nav-dropdown-content a {
       float: none;
@@ -95,110 +160,11 @@
       text-align: left;
     }
     .Nav-dropdown-content a:hover {
-      background-color: #ddd;
+      background-color: var(--Backdrops);
     }
     .Nav-dropdown-display:hover .Nav-dropdown-content {
       display: block;
     }
-
-/* END */
-.Navigation-dropdown-container {
-  width: 100%;
-  height: 100px;
-  display: flex;
-  justify-content: space-around;
-  vertical-align: middle;
-  flex-wrap: wrap;
-  font-family: 'Open Sans', sans-serif;
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 1;
-}
-.Navigation-dropdown-backdrop {
-  width: 100%;
-  height: 100px;
-  background-color: black;
-  opacity: .5;
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: -5;
-}
-.Navigation-dropdown-logo {
-  justify-content: center;
-  text-shadow: 1.5px 1.5px #000000;
-  font-family: 'Shrikhand', cursive;
-}
-.Navigation-dropdown-logo-link {
-  color: white;
-  text-decoration: none;
-  -webkit-transition-duration: 0.4s;
-  transition-duration: 0.4s;
-}
-.Navigation-dropdown-logo-link:hover {
-  color: #428bca;
-  -webkit-animation: swing 1s ease;
-  animation: swing 1s ease;
-  -webkit-animation-iteration-count: 1;
-  animation-iteration-count: 1;
-}
-.Navigation-dropdown-logo-1 {
-  margin-bottom: -15px;
-  font-size: 2em;
-}
-.Navigation-dropdown-logo-2 {
-  margin-left: 120px;
-  font-size: 1em;
-}
-
-/* Begin 500px or more media query */
-.Navigation-flexbox-right-dropdown {
-  display: flex;
-  justify-content: space-around;
-  vertical-align: middle;
-  flex-wrap: wrap;
-}
-/* BUTTONS */
-.Navigation-Drop-Menu {
-  opacity: 0;
-}
-.Navigation-button {
-  margin-left: 30px;
-  margin-top: 35px;
-  color: white;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 1.5em;
-  text-shadow: 1.5px 1.5px #000000;
-  -webkit-transition-duration: 0.4s;
-  transition-duration: 0.4s;
-}
-.Navigation-button:hover {
-  color: #428bca;
-  -webkit-animation: swing 1s ease;
-  animation: swing 1s ease;
-  -webkit-animation-iteration-count: 1;
-  animation-iteration-count: 1;
-}
-
-/* Begin 499px or less media query */
-.Navigation-flexbox-right-dropdown {
-  display: flex;
-  justify-content: space-around;
-  vertical-align: middle;
-  flex-wrap: wrap;
-}
-.Navigation-drop-menu {
-}
-.Navigation-drop-button {
-  width: 35px;
-  height: 5px;
-  background-color: black;
-  margin: 6px 0;
-  transition: 0.4s;
-}
 
 /* All Animations */
 @-webkit-keyframes swing
