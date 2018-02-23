@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './Navigation.css';
+import { Link } from 'react-router-dom';
 
 class Navigation extends Component {
 
@@ -19,7 +20,7 @@ class Navigation extends Component {
 
         <div className="Navigation-flexbox-right">
           <div id="Navigation-services" className="Navigation-button">
-            <p>Our Services</p>
+            <Link to="/services"><button>Our Services</button></Link>
           </div>
 
           <div id="Navigation-tracking" className="Navigation-button">
