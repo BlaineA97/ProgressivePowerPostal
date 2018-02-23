@@ -1,11 +1,13 @@
 import React, { Component } from 'react';
 import './Services.css';
+import Navigation from '../Navigation';
 
 class Services extends Component {
 
   render() {
     return (
       <div className="Services-container">
+        <Navigation />
 
         <div className="Services-title">
           <h1>Services-Title</h1>
