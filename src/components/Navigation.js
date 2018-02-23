@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './Navigation.css';
 import { Link } from 'react-router-dom';
+import $ from 'jquery';
 
 class Navigation extends Component {
 
@@ -19,6 +20,11 @@ class Navigation extends Component {
         </div>
 
         <div className="Navigation-flexbox-right">
+          <button onclick="myFunction()" class="Navigation-Drop-Menu">
+            <div></div>
+            <div></div>
+            <div></div>
+          </button>
           <div id="Navigation-services">
             <Link className="Navigation-button" to="/services"><p>Our Services</p></Link>
           </div>
