@@ -9,26 +9,26 @@ class Navigation extends Component {
       <div className="Navigation-container">
 
         <div className="Navigation-flexbox-left">
-          <div className="Navigation-logo">
+          <Link to="/" className="Navigation-logo">
             <h1 className="Navigation-logo-1">Power Postal</h1>
             <h3 className="Navigation-logo-2">at Las Sendas</h3>
-          </div>
+          </Link>
         </div>
 
         <div className="Navigation-flexbox-center">
         </div>
 
         <div className="Navigation-flexbox-right">
-          <div id="Navigation-services" className="Navigation-button">
-            <Link to="/services"><button>Our Services</button></Link>
+          <div id="Navigation-services">
+            <Link className="Navigation-button" to="/services"><p>Our Services</p></Link>
           </div>
 
-          <div id="Navigation-tracking" className="Navigation-button">
-            <p>Track Package</p>
+          <div id="Navigation-tracking">
+            <Link className="Navigation-button" to="/tracking"><p>Track Package</p></Link>
           </div>
 
-          <div id="Navigation-contact" className="Navigation-button">
-            <p>Contact Us</p>
+          <div id="Navigation-contact">
+            <Link className="Navigation-button" to="/contact"><p>Contact Us</p></Link>
           </div>
         </div>
 

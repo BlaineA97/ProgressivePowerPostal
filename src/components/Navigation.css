@@ -29,6 +29,16 @@
 }
 .Navigation-logo {
   color: white;
+  text-decoration: none;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+}
+.Navigation-logo:hover {
+  color: #428bca;
+  -webkit-animation: swing 1s ease;
+  animation: swing 1s ease;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
 }
 .Navigation-logo-1 {
   margin-bottom: -25px;
