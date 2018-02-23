@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './Navigation.css';
 import { Link } from 'react-router-dom';
 import $ from 'jquery';
+import MediaQuery from 'react-responsive';
 
 class Navigation extends Component {
 
@@ -19,27 +20,34 @@ class Navigation extends Component {
         <div className="Navigation-flexbox-center">
         </div>
 
-        <div className="Navigation-flexbox-right">
-          <button onclick="myFunction()" class="Navigation-Drop-Menu">
-            <div></div>
-            <div></div>
-            <div></div>
-          </button>
-          <div id="Navigation-services">
-            <Link className="Navigation-button" to="/services"><p>Our Services</p></Link>
+        <MediaQuery maxWidth={499}>
+          <div className="Navigation-flexbox-right-dropdown">
+            <button onclick="myFunction()" class="Navigation-drop-menu">
+              <div className="Navigation-drop-button"></div>
+              <div className="Navigation-drop-button"></div>
+              <div className="Navigation-drop-button"></div>
+            </button>
           </div>
+         </MediaQuery>
 
-          <div id="Navigation-tracking">
-            <Link className="Navigation-button" to="/tracking"><p>Track Package</p></Link>
-          </div>
+         <MediaQuery minWidth={500} maxWidth={1200}>
+           <div className="Navigation-flexbox-right-full">
+             <div id="Navigation-services">
+               <Link className="Navigation-button" to="/services"><p>Our Services</p></Link>
+             </div>
 
-          <div id="Navigation-contact">
-            <Link className="Navigation-button" to="/contact"><p>Contact Us</p></Link>
-          </div>
-        </div>
+             <div id="Navigation-tracking">
+               <Link className="Navigation-button" to="/tracking"><p>Track Package</p></Link>
+             </div>
 
-        <div className="Navigation-backdrop">
-        </div>
+             <div id="Navigation-contact">
+               <Link className="Navigation-button" to="/contact"><p>Contact Us</p></Link>
+             </div>
+             </div>
+
+             <div className="Navigation-backdrop">
+           </div>
+         </MediaQuery>
 
       </div>
     );

@@ -1,209 +1,167 @@
 /* Color Palette provided in App.css */
-
-/* Any screen 500px or more will apply this CSS */
-@media (min-width:500px){
-  .Navigation-flexbox-right {
-    background-color: red;
-    }
-  .Navigation-container {
-    width: 100%;
-    height: 100px;
-    display: flex;
-    justify-content: space-around;
-    vertical-align: middle;
-    flex-wrap: wrap;
-    font-family: 'Open Sans', sans-serif;
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 1;
-  }
-  .Navigation-backdrop {
-    width: 100%;
-    height: 100px;
-    background-color: black;
-    opacity: .5;
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: -5;
-  }
-  .Navigation-flexbox-left {
-    min-width: 300px;
-    justify-content: center;
-    text-shadow: 1.5px 1.5px #000000;
-    font-family: 'Shrikhand', cursive;
-  }
-  .Navigation-logo {
-    color: white;
-    text-decoration: none;
-    -webkit-transition-duration: 0.4s;
-    transition-duration: 0.4s;
-  }
-  .Navigation-logo:hover {
-    color: #428bca;
-    -webkit-animation: swing 1s ease;
-    animation: swing 1s ease;
-    -webkit-animation-iteration-count: 1;
-    animation-iteration-count: 1;
-  }
-  .Navigation-logo-1 {
-    margin-bottom: -25px;
-    font-size: 3.5em;
-  }
-  .Navigation-logo-2 {
-    margin-left: 120px;
-    font-size: 1.4em;
-  }
-
-  .Navigation-flexbox-right {
-    display: flex;
-    justify-content: space-around;
-    vertical-align: middle;
-    flex-wrap: wrap;
-  }
-  /* BUTTONS */
-  .Navigation-Drop-Menu {
-    opacity: 0;
-  }
-  .Navigation-button {
-    margin-left: 30px;
-    margin-top: 35px;
-    color: white;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 1.5em;
-    text-shadow: 1.5px 1.5px #000000;
-    -webkit-transition-duration: 0.4s;
-    transition-duration: 0.4s;
-  }
-  .Navigation-button:hover {
-    color: #428bca;
-    -webkit-animation: swing 1s ease;
-    animation: swing 1s ease;
-    -webkit-animation-iteration-count: 1;
-    animation-iteration-count: 1;
-  }
-  @-webkit-keyframes swing
-  {
-      15%
-      {
-          -webkit-transform: translateX(5px);
-          transform: translateX(5px);
-      }
-      30%
-      {
-          -webkit-transform: translateX(-5px);
-         transform: translateX(-5px);
-      }
-      50%
-      {
-          -webkit-transform: translateX(3px);
-          transform: translateX(3px);
-      }
-      65%
-      {
-          -webkit-transform: translateX(-3px);
-          transform: translateX(-3px);
-      }
-      80%
-      {
-          -webkit-transform: translateX(2px);
-          transform: translateX(2px);
-      }
-      100%
-      {
-          -webkit-transform: translateX(0);
-          transform: translateX(0);
-      }
-  }
-  @keyframes swing
-  {
-      15%
-      {
-          -webkit-transform: translateX(5px);
-          transform: translateX(5px);
-      }
-      30%
-      {
-          -webkit-transform: translateX(-5px);
-          transform: translateX(-5px);
-      }
-      50%
-      {
-          -webkit-transform: translateX(3px);
-          transform: translateX(3px);
-      }
-      65%
-      {
-          -webkit-transform: translateX(-3px);
-          transform: translateX(-3px);
-      }
-      80%
-      {
-          -webkit-transform: translateX(2px);
-          transform: translateX(2px);
-      }
-      100%
-      {
-          -webkit-transform: translateX(0);
-          transform: translateX(0);
-      }
-  }
-
+.Navigation-container {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: space-around;
+  vertical-align: middle;
+  flex-wrap: wrap;
+  font-family: 'Open Sans', sans-serif;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+.Navigation-backdrop {
+  width: 100%;
+  height: 100px;
+  background-color: black;
+  opacity: .5;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -5;
+}
+.Navigation-flexbox-left {
+  min-width: 300px;
+  justify-content: center;
+  text-shadow: 1.5px 1.5px #000000;
+  font-family: 'Shrikhand', cursive;
+}
+.Navigation-logo {
+  color: white;
+  text-decoration: none;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+}
+.Navigation-logo:hover {
+  color: #428bca;
+  -webkit-animation: swing 1s ease;
+  animation: swing 1s ease;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+}
+.Navigation-logo-1 {
+  margin-bottom: -25px;
+  font-size: 3.5em;
+}
+.Navigation-logo-2 {
+  margin-left: 120px;
+  font-size: 1.4em;
 }
 
-/* Any screen 499 or less will apply this CSS */
-@media (max-width:499px){
-  .Navigation-container {
-    width: 100%;
-    height: 100px;
-    display: flex;
-    justify-content: space-around;
-    vertical-align: middle;
-    flex-wrap: wrap;
-    font-family: 'Open Sans', sans-serif;
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 1;
-  }
-  .Navigation-backdrop {
-    width: 100%;
-    height: 65px;
-    background-color: black;
-    opacity: .5;
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: -5;
-  }
-  .Navigation-flexbox-left {
-    min-width: 300px;
-    justify-content: center;
-    text-shadow: 1.5px 1.5px #000000;
-    font-family: 'Shrikhand', cursive;
-  }
-  .Navigation-logo {
-    color: white;
-    text-decoration: none;
-  }
-  .Navigation-logo-1 {
-    margin-bottom: -25px;
-    font-size: 2.2em;
-  }
-  .Navigation-logo-2 {
-    margin-left: 1px;
-    font-size: 1.1em;
-  }
-  .Navigation-flexbox-right {
-    display: flex;
-    justify-content: space-around;
-    vertical-align: middle;
-    flex-wrap: wrap;
-  }
-  .Navigation-Drop-Menu {
-    opacity: 0;
-  }
+/* Begin 500px or more media query */
+.Navigation-flexbox-right-full {
+  display: flex;
+  justify-content: space-around;
+  vertical-align: middle;
+  flex-wrap: wrap;
+}
+/* BUTTONS */
+.Navigation-Drop-Menu {
+  opacity: 0;
+}
+.Navigation-button {
+  margin-left: 30px;
+  margin-top: 35px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.5em;
+  text-shadow: 1.5px 1.5px #000000;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+}
+.Navigation-button:hover {
+  color: #428bca;
+  -webkit-animation: swing 1s ease;
+  animation: swing 1s ease;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+}
+
+/* Begin 499px or less media query */
+.Navigation-flexbox-right-dropdown {
+  display: flex;
+  justify-content: space-around;
+  vertical-align: middle;
+  flex-wrap: wrap;
+}
+.Navigation-drop-menu {
+}
+.Navigation-drop-button {
+  width: 35px;
+  height: 5px;
+  background-color: black;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+/* All Animations */
+@-webkit-keyframes swing
+{
+    15%
+    {
+        -webkit-transform: translateX(5px);
+        transform: translateX(5px);
+    }
+    30%
+    {
+        -webkit-transform: translateX(-5px);
+       transform: translateX(-5px);
+    }
+    50%
+    {
+        -webkit-transform: translateX(3px);
+        transform: translateX(3px);
+    }
+    65%
+    {
+        -webkit-transform: translateX(-3px);
+        transform: translateX(-3px);
+    }
+    80%
+    {
+        -webkit-transform: translateX(2px);
+        transform: translateX(2px);
+    }
+    100%
+    {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+}
+@keyframes swing
+{
+    15%
+    {
+        -webkit-transform: translateX(5px);
+        transform: translateX(5px);
+    }
+    30%
+    {
+        -webkit-transform: translateX(-5px);
+        transform: translateX(-5px);
+    }
+    50%
+    {
+        -webkit-transform: translateX(3px);
+        transform: translateX(3px);
+    }
+    65%
+    {
+        -webkit-transform: translateX(-3px);
+        transform: translateX(-3px);
+    }
+    80%
+    {
+        -webkit-transform: translateX(2px);
+        transform: translateX(2px);
+    }
+    100%
+    {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
 }
