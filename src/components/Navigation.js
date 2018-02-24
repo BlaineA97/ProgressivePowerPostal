@@ -10,8 +10,6 @@ class Navigation extends Component {
     return (
       <div className="Nav-dropdown">
 
-        <h2 className="tester">BOBOBOBOBOBOBOBOBOB</h2>
-
         <MediaQuery maxWidth={799}>
             <div className="Nav-dropdown-container">
             <div className="Nav-dropdown-logo">
@@ -46,8 +44,6 @@ class Navigation extends Component {
                  <h3 className="Nav-full-logo-2">at Las Sendas</h3>
                </Link>
              </div>
-             <div className="Nav-full-flex-spacer">
-           </div>
               <div className="Nav-full-menu">
                  <div id="Nav-full-services" className="Nav-full-link-div">
                     <Link to="/services" className="Nav-full-link">
