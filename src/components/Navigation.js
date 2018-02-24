@@ -66,7 +66,7 @@ class Navigation extends Component {
            </div>
          </MediaQuery>
 
-         <MediaQuery minWidth={800} maxWidth={1200}>
+         <MediaQuery minWidth={800} maxWidth={2500}>
            <div className="Nav-full-container">
              <div className="Nav-full-logo-container">
                <Link to="/" className="Nav-full-logo-link">

@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import './Services.css';
 import Navigation from '../Navigation';
+import Footer from '../Footer';
+import Shipping from '../../images/Services/shipping.png';
 
 class Services extends Component {
 
@@ -8,13 +10,17 @@ class Services extends Component {
     return (
       <div className="Services-container">
         <Navigation />
+        <div className="Services-container-organizer">
         <div className="Services-text-container">
-          <div className="Services-title">
-            <h1>Our Servies</h1>
+          <div id="Services-title" className="Ser-title">
+            <h1><i>Our Services</i></h1>
           </div>
           <div className="Services-description">
-            <p>Power Postal at Las Sendas is your Mesa, AZ destination for Postal & Shipping Services. Tired of terrible customer service at your local post office or the high rates? Look no further, we provide low cost services and provide the best customer service in the valley!</p>
+            <p id="Ser-bio-1">Power Postal at Las Sendas is your Mesa, AZ destination for Postal & Shipping Services. </p>
+            <p id="Ser-bio-2">Tired of terrible customer service at your local post office or the high rates? </p>
+            <p id="Ser-bio-3">Look no further, we provide low cost services and provide the best customer service in the valley!</p>
           </div>
+          <div className="Ser-spacer"/>
           <div className="Services-overview">
             <ul>
               <li>Low Cost, Secure, Personal Mailboxes</li>
@@ -33,8 +39,9 @@ class Services extends Component {
               <li></li>
             </ul>
           </div>
-          <div className="Services-pobox-title">
-            <h1>Personal Mailbox Service:</h1>
+          <div className="Ser-spacer"/>
+          <div id="Services-pobox-title" className="Ser-title">
+            <h1>Personal Mailbox Services</h1>
           </div>
           <div className="Services-pobox-overview">
             <ul>
@@ -45,11 +52,11 @@ class Services extends Component {
               <li>Package Acceptance from all Shipping Carriers</li>
             </ul>
           </div>
-          <div className="Services-usps-title">
-            <h1>USPS Postal Services Include:</h1>
+          <div className="Ser-spacer"/>
+          <div id="Services-usps-title" className="Ser-title">
+            <h1>USPS Postal Services Include</h1>
           </div>
           <div className="Services-usps-overview">
-            <h1>Services-usps-overview</h1>
             <ul>
               <li>Postage Stamps</li>
               <li>Certified Mail</li>
@@ -62,6 +69,9 @@ class Services extends Component {
             </ul>
           </div>
         </div>
+        </div>
+        <img id="Ser-img" src={Shipping} alt="logo"/>
+        <Footer />
       </div>
     );
   }
