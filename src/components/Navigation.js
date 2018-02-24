@@ -9,6 +9,9 @@ class Navigation extends Component {
 
     return (
       <div className="Nav-dropdown">
+
+        <h2 className="tester">BOBOBOBOBOBOBOBOBOB</h2>
+
         <MediaQuery maxWidth={799}>
             <div className="Nav-dropdown-container">
             <div className="Nav-dropdown-logo">
@@ -44,19 +47,25 @@ class Navigation extends Component {
                </Link>
              </div>
              <div className="Nav-full-flex-spacer">
-             </div>
-             <div className="Nav-full-menu">
-               <div id="Nav-full-services">
-                 <Link className="Nav-full-button" to="/services"><p>Our Services</p></Link>
+           </div>
+              <div className="Nav-full-menu">
+                 <div id="Nav-full-services" className="Nav-full-link-div">
+                    <Link to="/services" className="Nav-full-link">
+                      <p className="Nav-full-button">Our Services</p>
+                    </Link>
+                 </div>
+                 <div id="Nav-full-tracking" className="Nav-full-link-div">
+                   <Link to="/tracking" className="Nav-full-link">
+                     <p className="Nav-full-button">Track Package</p>
+                   </Link>
+                 </div>
+                 <div id="Nav-full-contact" className="Nav-full-link-div">
+                   <Link to="/contact" className="Nav-full-link">
+                     <p className="Nav-full-button">Contact Us</p>
+                   </Link>
+                 </div>
                </div>
-               <div id="Nav-full-tracking">
-                 <Link className="Nav-full-button" to="/tracking"><p>Track Package</p></Link>
-               </div>
-               <div id="Nav-full-contact">
-                 <Link className="Nav-full-button" to="/contact"><p>Contact Us</p></Link>
-               </div>
-               </div>
-               <div className="Nav-full-backdrop">
+             <div className="Nav-full-backdrop">
              </div>
            </div>
          </MediaQuery>

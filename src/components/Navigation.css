@@ -24,7 +24,6 @@
       .Nav-full-logo-container {
         margin-right: 50px;
         float: left;
-        text-shadow: 1.5px 1.5px #000000;
         font-family: 'Shrikhand', cursive;
       }
       .Nav-full-logo-link {
@@ -51,7 +50,7 @@
       vertical-align: middle;
       flex-wrap: wrap;
     }
-    .Nav-full-button {
+    .Nav-full-link {
       margin-left: 10px;
       margin-top: 35px;
       color: white;
@@ -59,16 +58,21 @@
       text-decoration: none;
       font-size: 1.2em;
       text-shadow: 1.5px 1.5px #000000;
-      -webkit-transition-duration: 0.4s;
-      transition-duration: 0.4s;
     }
     .Nav-full-button:hover {
       color: #428bca;
+    }
+    .Nav-full-link-div {
+      -webkit-transition-duration: 0.4s;
+      transition-duration: 0.4s;
+    }
+    .Nav-full-link-div:hover {
       -webkit-animation: swing 1s ease;
       animation: swing 1s ease;
       -webkit-animation-iteration-count: 1;
       animation-iteration-count: 1;
     }
+
 
 /* Begin 499px or less media query */
   .Nav-dropdown {
