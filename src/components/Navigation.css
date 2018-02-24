@@ -93,12 +93,11 @@
   .Nav-dropdown-container {
     min-width: 400px;
     vertical-align: middle;
-    flex-wrap: wrap;
+    display: flex;
   }
   /* Logo (Left Flexbox) */
     .Nav-dropdown-logo {
       margin-right: 50px;
-      float: left;
       text-shadow: 1.5px 1.5px #000000;
       font-family: 'Shrikhand', cursive;
     }
