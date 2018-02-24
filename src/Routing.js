@@ -3,6 +3,7 @@ import { BrowserRouter, Route } from 'react-router-dom'
 import App from './App';
 import Body from './components/Body';
 import Services from './components/Pages/Services';
+import PackageLookup from './components/Pages/PackageLookup';
 
 class Routing extends Component {
   render() {
@@ -11,7 +12,7 @@ class Routing extends Component {
           <div>
             <Route exact path="/" component={App} />
             <Route path="/services" component={Services} />
-            <Route path="/tracking" component={Body} />
+            <Route path="/package-lookup" component={PackageLookup} />
             <Route path="/contact" component={Body} />
         </div>
       </BrowserRouter>
