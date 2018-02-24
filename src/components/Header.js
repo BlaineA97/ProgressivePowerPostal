@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import './Header.css';
-import Navigation from './Navigation';
 
 class Header extends Component {
   constructor(props) {
