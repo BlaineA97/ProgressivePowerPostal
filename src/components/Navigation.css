@@ -73,6 +73,22 @@
       animation-iteration-count: 1;
     }
 
+/* Begin 549px to 799px media query */
+  .Nav-med-menu {
+    display: flex;
+    justify-content: space-around;
+    vertical-align: middle;
+    flex-wrap: wrap;
+  }
+  .Nav-med-link {
+    margin-left: 15px;
+    margin-top: 35px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 0.9em;
+    text-shadow: 1.5px 1.5px #000000;
+  }
 
 /* Begin 499px or less media query */
   .Nav-dropdown {
@@ -98,6 +114,7 @@
     min-width: 400px;
     vertical-align: middle;
     display: flex;
+    justify-content: space-between;
   }
   /* Logo (Left Flexbox) */
     .Nav-dropdown-logo {
@@ -124,7 +141,6 @@
     }
   /* Dropdown (Right Flexbox) */
     .Nav-dropdown-menu-container {
-      margin-right: 50px;
     }
     .Nav-dropdown-display .Nav-dropdown-button {
       padding-right: 50px;
