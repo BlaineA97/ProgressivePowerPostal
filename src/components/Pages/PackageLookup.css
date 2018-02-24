@@ -1,6 +1,9 @@
 /* Color Palette provided in App.css */
+html, body {
+    height: 100%
+}
 
-.Services-container {
+.PackageLookup-container {
   border-top: 3px solid rgb(0, 0, 0); /* No opacity border for older browsers */
   border-top: 3px solid rgba(0, 0, 0, .5); /* Modern browser with .3 opacity */
   text-align: center;
@@ -8,35 +11,26 @@
   background-image: url("../../images/white-parchment.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  padding-top: 25px;
+  padding-top: 30px;
+  height: stretch;
 }
-.Services-container-organizer {
-  margin: 50px 150px;
+.PackageLookup-title {
+  margin: 50px 150px 20px 150px;
   text-align: center;
 }
-ul {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
+.PackageLookup-text {
+  margin: 0 150px 30px 150px;
+  text-align: center;
 }
-li {
-  justify-content: center;
-  flex: 1 0 100%;
-  list-style: none;
+img.PackageLookup-image {
+  width: 150px;
+  height: 75px;
+  max-width: 250px;
+  max-height: 150px;
+  margin: 0 150px 50px 150px;
+  flex-grow: 1;
+  transition: transform 0.5s ease;
 }
-.Ser-spacer {
-  background-color: black;
-  height: 2px;
-  width: auto;
-  margin-bottom: 15px;
-  margin-top: 15px;
-}
-.Ser-title {
-  padding-bottom: 15px;
-  font-size: 1em;
-}
-#Ser-img {
-  max-width: 500px;
-  min-width: 100px;
-  padding-bottom: 35px;
+img.PackageLookup-image:hover {
+  transform: scale(1.2);
 }
