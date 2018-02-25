@@ -1,7 +1,4 @@
 /* Color Palette provided in App.css */
-html, body {
-    height: 100%
-}
 
 .PackageLookup-container {
   border-top: 3px solid rgb(0, 0, 0); /* No opacity border for older browsers */
@@ -12,7 +9,6 @@ html, body {
   background-repeat: no-repeat;
   background-size: cover;
   padding-top: 30px;
-  height: stretch;
 }
 .PackageLookup-title {
   margin: 50px 150px 20px 150px;
@@ -23,8 +19,8 @@ html, body {
   text-align: center;
 }
 img.PackageLookup-image {
-  width: 150px;
-  height: 75px;
+  width: 200px;
+  height: 100px;
   max-width: 250px;
   max-height: 150px;
   margin: 0 150px 50px 150px;
@@ -33,4 +29,15 @@ img.PackageLookup-image {
 }
 img.PackageLookup-image:hover {
   transform: scale(1.2);
+}
+img.Fleet-image {
+  border: 1px black solid;
+  border-radius: 20px;
+  width: 250px;
+  height: 175px;
+  max-width: 250px;
+  max-height: 175px;
+  margin: 10px 0;
+  flex-grow: 1;
+  transition: transform 0.5s ease;
 }

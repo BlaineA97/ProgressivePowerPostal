@@ -6,6 +6,10 @@ import ImgDHL from '../../images/tracking/dhl.png';
 import ImgFedEx from '../../images/tracking/fedex.png';
 import ImgUSPS from '../../images/tracking/usps.png';
 import ImgUPS from '../../images/tracking/ups.png';
+import ImgVehiclesDHL from '../../images/PackageLookup/dhl.jpg';
+import ImgVehiclesFedex from '../../images/PackageLookup/fedex.jpg';
+import ImgVehiclesUPS from '../../images/PackageLookup/ups.jpg';
+import ImgVehiclesUSPS from '../../images/PackageLookup/usps.jpg';
 
 class PackageLookup extends Component {
 
@@ -48,6 +52,37 @@ class PackageLookup extends Component {
               className="PackageLookup-image"
               id="Tracking-img-dhl"
               src={ImgDHL}
+              alt="Leanin' Tree"
+            />
+          </div>
+
+          <div className="PackageLookup-fleet-images-container">
+            <img
+              onClick={() => this.openTrackerUSPS()}
+              className="Fleet-image"
+              id="Tracking-img-usps"
+              src={ImgVehiclesUSPS}
+              alt="Leanin' Tree"
+            />
+            <img
+              onClick={() => this.openTrackerFedEx()}
+              className="Fleet-image"
+              id="Tracking-img-fedex"
+              src={ImgVehiclesFedex}
+              alt="Leanin' Tree"
+            />
+            <img
+              onClick={() => this.openTrackerUPS()}
+              className="Fleet-image"
+              id="Tracking-img-ups"
+              src={ImgVehiclesUPS}
+              alt="Leanin' Tree"
+            />
+            <img
+              onClick={() => this.openTrackerDHL()}
+              className="Fleet-image"
+              id="Tracking-img-dhl"
+              src={ImgVehiclesDHL}
               alt="Leanin' Tree"
             />
           </div>
