@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './PackageLookup.css';
 import Navigation from '../Navigation';
+import Associates from '../BodyParts/Associates';
 import Footer from '../Footer';
 import ImgDHL from '../../images/tracking/dhl.png';
 import ImgFedEx from '../../images/tracking/fedex.png';
@@ -86,7 +87,7 @@ class PackageLookup extends Component {
               alt="Leanin' Tree"
             />
           </div>
-
+        <Associates />
         <Footer />
       </div>
     );

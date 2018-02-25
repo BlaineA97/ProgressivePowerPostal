@@ -67,7 +67,8 @@ class Info extends Component {
             <a id="Info-location-link" onClick={() => this.openLinkDirections()}>
             [View Map]</a><br />
             Phone: 480-654-2600<br />
-            Fax: 480-654-2800
+            Fax: 480-654-2800<br />
+            Email: Info@Powerpostal.com
           </p>
         </div>
       </div>
