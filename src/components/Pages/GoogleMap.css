@@ -1,0 +1,17 @@
+/* Color Palette provided in App.css */
+
+.GoogleMap-container {
+  border-top: 3px solid rgb(0, 0, 0); /* No opacity border for older browsers */
+  border-top: 3px solid rgba(0, 0, 0, .5); /* Modern browser with .3 opacity */
+  text-align: center;
+  color: black;
+  background-image: url("../../images/white-parchment.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 30px;
+}
+.GoogleMap-map {
+  width: 100%;
+  height: 400px;
+  background-color: grey;
+}
