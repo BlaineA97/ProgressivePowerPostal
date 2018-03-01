@@ -9,6 +9,7 @@ import locationImg from '../../images/Info/location.png';
 
 class Contact extends Component {
 
+
   render() {
     return (
       <div className="Contact-container">
@@ -34,10 +35,6 @@ class Contact extends Component {
               Fax: 480-654-2800<br />
               Email: Info@Powerpostal.com
             </p>
-          </div>
-
-          <div id="Contact-google-map">
-
           </div>
 
           <div className="Contact-hours">
@@ -66,6 +63,10 @@ class Contact extends Component {
               01/01 (New Year’s Day) – CLOSED
             </p>
           </div>
+        </div>
+
+        <div id="Contact-google-map">
+          <GoogleMap />
         </div>
 
         <Associates />
