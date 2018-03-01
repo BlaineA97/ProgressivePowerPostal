@@ -1,0 +1,43 @@
+/* Color Palette provided in App.css */
+
+.PackageLookup-container {
+  border-top: 3px solid rgb(0, 0, 0); /* No opacity border for older browsers */
+  border-top: 3px solid rgba(0, 0, 0, .5); /* Modern browser with .3 opacity */
+  text-align: center;
+  color: black;
+  background-image: url("../../images/white-parchment.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 30px;
+}
+.PackageLookup-title {
+  margin: 50px 150px 20px 150px;
+  text-align: center;
+}
+.PackageLookup-text {
+  margin: 0 150px 30px 150px;
+  text-align: center;
+}
+img.PackageLookup-image {
+  width: 200px;
+  height: 100px;
+  max-width: 250px;
+  max-height: 150px;
+  margin: 0 150px 50px 150px;
+  flex-grow: 1;
+  transition: transform 0.5s ease;
+}
+img.PackageLookup-image:hover {
+  transform: scale(1.2);
+}
+img.Fleet-image {
+  border: 1px black solid;
+  border-radius: 20px;
+  width: 250px;
+  height: 175px;
+  max-width: 250px;
+  max-height: 175px;
+  margin: 10px 0;
+  flex-grow: 1;
+  transition: transform 0.5s ease;
+}

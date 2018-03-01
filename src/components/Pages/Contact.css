@@ -1,0 +1,38 @@
+/* Color Palette provided in App.css */
+
+.Contact-container {
+  border-top: 3px solid rgb(0, 0, 0); /* No opacity border for older browsers */
+  border-top: 3px solid rgba(0, 0, 0, .5); /* Modern browser with .3 opacity */
+  text-align: center;
+  color: black;
+  background-image: url("../../images/white-parchment.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 30px;
+}
+.Contact-title {
+  margin: 50px 150px 20px 150px;
+}
+.Contact-Information {
+  display: flex;
+  justify-content: space-around;
+  vertical-align: middle;
+  flex-wrap: wrap;
+  text-align: center;
+}
+.Contact-location-container {
+  margin: 20px 0;
+  flex-basis: 300px;
+}C
+.Contact-google-map {
+  margin: 20px 0;
+  flex-basis: 300px;
+}
+.Contact-hours {
+  margin: 20px 0;
+  flex-basis: 300px;
+}
+.Contact-holiday-hours {
+  margin: 20px 0;
+  flex-basis: 300px;
+}

@@ -27,7 +27,7 @@ class Navigation extends Component {
                 </button>
                 <div className="Nav-dropdown-content">
                   <Link to="/services"><p>Our Services</p></Link>
-                  <Link to="/tracking"><p>Track Package</p></Link>
+                  <Link to="/package-lookup"><p>Track Package</p></Link>
                   <Link to="/contact"><p>Contact Us</p></Link>
                 </div>
               </div>
@@ -51,7 +51,7 @@ class Navigation extends Component {
                     </Link>
                  </div>
                  <div id="Nav-full-tracking" className="Nav-full-link-div">
-                   <Link to="/tracking" className="Nav-med-link">
+                   <Link to="/package-lookup" className="Nav-med-link">
                      <p className="Nav-full-button">Track Package</p>
                    </Link>
                  </div>
@@ -81,7 +81,7 @@ class Navigation extends Component {
                     </Link>
                  </div>
                  <div id="Nav-full-tracking" className="Nav-full-link-div">
-                   <Link to="/tracking" className="Nav-full-link">
+                   <Link to="/package-lookup" className="Nav-full-link">
                      <p className="Nav-full-button">Track Package</p>
                    </Link>
                  </div>
