@@ -1,17 +1,35 @@
 /* Color Palette provided in App.css */
 
 .GoogleMap-container {
-  border-top: 3px solid rgb(0, 0, 0); /* No opacity border for older browsers */
-  border-top: 3px solid rgba(0, 0, 0, .5); /* Modern browser with .3 opacity */
-  text-align: center;
-  color: black;
-  background-image: url("../../images/white-parchment.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  padding-top: 30px;
-}
-.GoogleMap-map {
+  border-top: 2px solid rgb(0, 0, 0); /* No opacity border for older browsers */
+  border-top: 2px solid rgba(0, 0, 0, .5); /* Modern browser with .3 opacity */
   width: 100%;
-  height: 400px;
-  background-color: grey;
+  height: 100%;
+  color: red;
+  position: relative;
+}
+.Google-pin {
+  background-image: url("../../images/GoogleMaps/pin.svg");
+  z-index: 1;
+}
+.Google-text {
+  font-family: 'Shrikhand', cursive;
+  font-size: 2.2em;
+}
+#Google-text1 {
+  margin-bottom: -20px;
+}
+#Google-text2 {
+  margin-left: 10px;
+}
+#GoogleMap-info-box {
+  min-width: 250px;
+  min-height: 100px;
+  max-width: 250px;
+  max-height: 100px;
+  margin: 10px;
+  border: red 3px solid;
+  position: absolute;
+  z-index: 10;
+  background-color: lightgray;
 }

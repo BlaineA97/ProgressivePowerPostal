@@ -1,0 +1,9 @@
+.Map-container {
+  height: 400px;
+  width: 100%;
+}
+#Map-GoogleMap {
+  width: 100%;
+  height: 100%;
+
+}

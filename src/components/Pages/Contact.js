@@ -2,12 +2,13 @@ import React, { Component } from 'react';
 import './Contact.css';
 import Navigation from '../Navigation';
 import Associates from '../BodyParts/Associates';
-import GoogleMap from './GoogleMap';
+import Map from '../map/Map';
 import Footer from '../Footer';
 import hoursImg from '../../images/Info/hours.png';
 import locationImg from '../../images/Info/location.png';
 
 class Contact extends Component {
+
 
   render() {
     return (
@@ -36,10 +37,6 @@ class Contact extends Component {
             </p>
           </div>
 
-          <div id="Contact-google-map">
-
-          </div>
-
           <div className="Contact-hours">
             <img className="Contact-image" src={hoursImg} alt="hours" />
             <h3 id="Contact-hours-title">Hours of Operation</h3>
@@ -66,6 +63,10 @@ class Contact extends Component {
               01/01 (New Year’s Day) – CLOSED
             </p>
           </div>
+        </div>
+
+        <div id="Contact-google-map">
+          <Map />
         </div>
 
         <Associates />

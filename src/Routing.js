@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import { BrowserRouter, Route } from 'react-router-dom'
 import App from './App';
-import Body from './components/Body';
 import Services from './components/Pages/Services';
 import PackageLookup from './components/Pages/PackageLookup';
 import Contact from './components/Pages/Contact';
