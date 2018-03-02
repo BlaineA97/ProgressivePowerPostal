@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import './Contact.css';
 import Navigation from '../Navigation';
 import Associates from '../BodyParts/Associates';
-import GoogleMap from './GoogleMap';
+import Map from '../map/Map';
 import Footer from '../Footer';
 import hoursImg from '../../images/Info/hours.png';
 import locationImg from '../../images/Info/location.png';
@@ -66,7 +66,7 @@ class Contact extends Component {
         </div>
 
         <div id="Contact-google-map">
-          <GoogleMap />
+          <Map />
         </div>
 
         <Associates />
