@@ -9,6 +9,7 @@
     top: 0;
     left: 0;
     z-index: 1;
+    font-family: 'Open Sans', sans-serif;
   }
   .Nav-full-backdrop { /* Applies black backdrop */
     width: 100%;
@@ -49,6 +50,7 @@
       justify-content: space-around;
       vertical-align: middle;
       flex-wrap: wrap;
+      font-family: 'Merriweather', serif;
     }
     .Nav-full-link {
       margin-left: 10px;
@@ -79,6 +81,8 @@
     justify-content: space-around;
     vertical-align: middle;
     flex-wrap: wrap;
+    font-family: 'Merriweather', serif;
+
   }
   .Nav-med-link {
     margin-left: 15px;
@@ -99,6 +103,8 @@
     top: 0;
     left: 0;
     z-index: 1;
+    font-family: 'Merriweather', serif;
+
   }
   .Nav-dropdown-backdrop { /* Applies black backdrop */
     width: 100%;

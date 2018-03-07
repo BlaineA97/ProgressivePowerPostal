@@ -28,17 +28,18 @@
   color: black;
   font-family: 'Shrikhand', cursive;
 }
-.Bio-title-1 {
-  margin-bottom: -20px;
-  font-size: 2.2em;
+#Bio-title-1 {
+  margin-bottom: -25px;
+  font-size: 2.8em;
 }
-.Bio-title-2 {
-  margin-left: 70px;
-  font-size: 1.1em;
+#Bio-title-2 {
+  font-size: 2em;
 }
 .Bio-bio {
   margin: 0 auto;
   padding-bottom: 15px;
+  font-family: 'Merriweather', serif;
+  font-size: 1.2em;
 }
 .Bio-img-container {
   flex-basis: 600px;

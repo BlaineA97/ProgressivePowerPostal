@@ -11,11 +11,11 @@
   padding-top: 30px;
 }
 .PackageLookup-title {
-  margin: 50px 150px 20px 150px;
+  margin: 50px 0 20px 0;
   text-align: center;
 }
 .PackageLookup-text {
-  margin: 0 150px 30px 150px;
+  margin: 0 0 30px 0;
   text-align: center;
 }
 img.PackageLookup-image {

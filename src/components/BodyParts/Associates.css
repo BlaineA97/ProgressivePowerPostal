@@ -11,6 +11,7 @@
   text-shadow: 2px 2px #000000;
   background-color: var(--Footer);
   padding-top: 25px;
+  font-family: 'Merriweather', serif;
 }
 .Associates-images-container {
   display: flex;
