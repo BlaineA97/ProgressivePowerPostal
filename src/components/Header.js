@@ -57,6 +57,9 @@ class Header extends Component {
             </a>
           </div>
 
+          <div className="Header-arrow-container">
+            <p id="animated" className="Header-arrow">⇩</p>
+          </div>
         </div>
       </div>
     );

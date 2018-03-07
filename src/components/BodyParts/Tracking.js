@@ -27,7 +27,7 @@ class Tracking extends Component {
     return (
       <div className="Tracking-container">
         <div id="Tracking-text">
-          <h1>Checking on a Shipment?</h1>
+          <h1>ASK MELISSA ABOUT PHRASE</h1>
           <h1>Select your Carrier</h1>
         </div>
 

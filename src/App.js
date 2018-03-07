@@ -26,3 +26,9 @@ class App extends Component {
 }
 
 export default App;
+/*
+things to do:
+Add cursor on links
+
+
+*/

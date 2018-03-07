@@ -38,5 +38,38 @@
   text-shadow: 3px 3px #000000;
 }
 .Header-background-text {
-  margin-top: 350px;
+  margin-top: 320px;
+}
+.Header-arrow-container {
+  display: flex;
+  justify-content: space-around;
+  vertical-align: middle;
+  text-align: center;
+  color: white;
+  margin-top: 40px;
+  font-size: 5em;
+  z-index: 5;
+}
+.Header-arrow {
+  animation: 1s ease-out 0s infinite bounce;
+  text-shadow: 3px 3px #000000;
+  color: #428bca;
+  font-size: 2em;
+}
+
+@-webkit-keyframes bounce {
+  0%, 100% {
+    -webkit-transform: translateY(0);
+  }
+  50% {
+    -webkit-transform: translateY(-15px);
+  }
+}
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-15px);
+  }
 }
